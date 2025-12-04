@@ -1,5 +1,5 @@
 # Medicines_RS
-## This repo consist of only a best performing model that is KNN with 98.3 % F1-score.
+## This repo consist of only a best performing model that is KNN with 98.3 % F1-score. Others are discarded however the flow of the program remains same for other models.
 Built a medicine recommendation engine covering 141 disease categories, benchmarking multiple ML models — Decision Tree (88.6% F1-score), Random Forest (93.4% F1-score), and SVM (96.1% F1-score) — and confirmed that K-Nearest Neighbors outperformed all models with a 98.33% F1-score for drug-composition-based similarity matching.
 
 Implemented the final system using TF-IDF vectorization + KNN, generating the top 5 medicine recommendations based on drug composition, disease type, and symptom inputs.
